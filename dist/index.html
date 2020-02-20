@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+ <head>
+   <title>Hello Blockstack</title>
+   <link rel="icon" type="image/x-icon" href="favicon.ico" />
+   <link rel="stylesheet" href="bootstrap.min.css" />
+   <link rel="stylesheet" href="app.css" />
+
+   <!-- Include webpack generated bundle -->
+   <script src="main.js"></script>
+   
+ 
+  </head>
+ <body>
+    
+    <div class="site-wrapper">
+        <div class="site-wrapper-inner">
+          <div class="panel-landing" id="section-1">
+            <h1 class="landing-heading">Hello, Blockstack!</h1>
+            <p class="lead">
+              <a href="#" class="btn btn-primary btn-lg" id="signin-button">
+                Sign In with Blockstack
+              </a>
+            </p>
+          </div>
+          <div class="panel-welcome hide" id="section-2">
+            <div class="avatar-section">
+              <img class="img-rounded avatar" id="avatar-image">
+            </div>
+            <h1>Hellooo, <span id="heading-name">Anonymous</span>!</h1>
+            <p class="lead">
+              <a href="#" class="btn btn-primary btn-lg" id="signout-button">
+                Logout
+              </a>
+            </p>
+            <header>
+              <h1>Recorder</h1>
+            </header>
+            <main>
+              <div class="controls">
+               <div class="container">
+                  <video autoplay="true" id="videoElement">
+                  
+                  </video>
+                  </div>
+                
+                <button type="button" id="button-preview">preview my video</button>
+                <button type="button" id="mic">Get Microphone</button>
+                <button type="button" id="record" hidden>Record</button>
+                <button type="button" id="play" >play my recording</button>
+              </div>
+              <ul id="recordings"></ul>
+            </main>
+         <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+         </head>
+          <body>
+           
+            <main>
+              <div class="controls">
+             </div>
+              <ul id="recordings"></ul>
+            </main>
+            
+             <video id="recvideo"></video>
+            
+          </body>
+          
+          </div>
+        </div>
+      </div>
+      
+ </body>
+</html>
