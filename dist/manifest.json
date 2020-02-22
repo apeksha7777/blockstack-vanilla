@@ -1,7 +1,7 @@
 {
   "name": "Hello, Blockstack",
   "start_url": "localhost:9000",
-  "description": "A simple demo of Blockstack Auth",
+  "description": "A simple demo of Blockstack video recorder",
   "icons": [{
     "src": "favicon.ico",
     "sizes": "192x192",
